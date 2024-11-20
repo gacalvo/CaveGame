@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fruit
+  - LightBeam
   layers:
   - Default
   - TransparentFX
@@ -13,8 +15,8 @@ TagManager:
   - UI
   - Background
   - Cave
-  - 
-  - 
+  - Player
+  - LightBeam
   - 
   - 
   - 
@@ -40,6 +42,9 @@ TagManager:
   m_SortingLayers:
   - name: Background
     uniqueID: 3257097409
+    locked: 0
+  - name: Plants
+    uniqueID: 4178207287
     locked: 0
   - name: Default
     uniqueID: 0
